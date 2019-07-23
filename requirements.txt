@@ -1,0 +1,10 @@
+numpy
+sparse
+matplotlib
+panel
+notebook
+ipykernel
+tornado
+bokeh
+holoviews
+
