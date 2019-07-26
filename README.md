@@ -1,7 +1,13 @@
 [![app](launch-binder-app-579ACA.svg)](https://mybinder.org/v2/gh/sametz/panel-test/master?urlpath=/proxy/5006/dnmr_ab)
 
-![DNMR AB quartet](DNMR-AB.png)
+## Click the "launch binder app" badge above to launch the application. 
+Be patient as the server image is launched :)
+
 # panel-test
+
+![DNMR AB quartet](DNMR-AB.png)
+
+
 Testing the use of Panel to create apps for simulating nuclear magnetic 
 resonance (NMR) simulations.
 
