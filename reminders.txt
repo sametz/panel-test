@@ -1,0 +1,4 @@
+Reminders for how to do certain tasks:
+
+Convert notebook to python:
+    jupyter nbconvert --to script my_notebook.ipynb
