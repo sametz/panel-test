@@ -22,16 +22,16 @@ def ab_quartet(v1=150.0, v2=50.0, J=10.0):
 
 ab_app = pn.interact(ab_quartet, v1=(0.0, 300.0, 0.1, 150.0), v2=(0.0, 300.0, 0.1, 50.0), J=(0.0, 20.0, 0.1, 10.0))
 
-dd_text_1 = pn.pane.Markdown('''
+ab_text_1 = pn.pane.Markdown('''
 #### AB quartet text goes here
 ''')
-dd_text_2 = pn.pane.Markdown('''text 2''')
+ab_text_2 = pn.pane.Markdown('''text 2''')
 
 backward = pn.widgets.Button(name='\u25c0', width=50)
 forward = pn.widgets.Button(name='\u25b6', width=50)
 back_fwd = pn.Row(backward, forward)
 
-test_text = [dd_text_1, dd_text_2]
+test_text = [ab_text_1, ab_text_2]
 deque_text = deque(test_text)
 
 text_column = pn.Column(back_fwd, deque_text[0])
