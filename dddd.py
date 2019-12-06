@@ -11,7 +11,7 @@ def dddd(J1, J2, J3, J4, w):
     singlet = (100, 1)  # center at 100 Hz; intensity 1
     couplings = [(J1, 1), (J2, 1), (J3, 1), (J4, 1)]
     peaklist = first_order(singlet, couplings)
-    x, y = lineshape_from_peaklist(peaklist, w=w, limits=(75, 125))
+    x, y = lineshape_from_peaklist(peaklist, w=w, limits=(70, 130))
     return hv.Curve(zip(x, y))
 
 
