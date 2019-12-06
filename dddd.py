@@ -12,7 +12,7 @@ def dddd(J1, J2, J3, J4, w):
     couplings = [(J1, 1), (J2, 1), (J3, 1), (J4, 1)]
     peaklist = first_order(singlet, couplings)
     x, y = lineshape_from_peaklist(peaklist, w=w, limits=(70, 130))
-    return hv.Curve(zip(x, y))
+    return hv.Curve(zip(x, y)).options(axiswise=True)  # axiswise=True turns off axis sync
 
 
 dddd_app = pn.interact(dddd,

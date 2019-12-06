@@ -12,7 +12,7 @@ def ddd(J1, J2, J3, w):
     couplings = [(J1, 1), (J2, 1), (J3, 1)]
     peaklist = first_order(singlet, couplings)
     x, y = lineshape_from_peaklist(peaklist, w=w, limits=(75, 125))
-    return hv.Curve(zip(x, y))
+    return hv.Curve(zip(x, y)).options(axiswise=True)
 
 ddd_app = pn.interact(ddd, 
                       J1=(0.0, 20.0, 0.1, 4.0),
