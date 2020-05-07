@@ -206,8 +206,8 @@ The interactive plot below shows a typical ABX pattern.
   To accurately determine the chemical shifts and coupling constants from this signal, 
   a more elaborate calculation is required. 
   If you are interested in the details, 
-  this type of calculation is described in detail [here]
-  (https://www.chem.wisc.edu/areas/reich/nmr/05-hmr-12-abx.htm). 
+  this type of calculation is described in detail 
+  [here](https://www.chem.wisc.edu/areas/reich/nmr/05-hmr-12-abx.htm). 
   At this point, the AB signal more strongly resembles two sets of overlapping AB quartets. 
   The first, third, fourth, and seventh peaks from left to right 
   (the two smallest and the two largest peaks) are one AB quartet, 
