@@ -7,4 +7,3 @@ ipykernel
 tornado
 bokeh
 holoviews
-
