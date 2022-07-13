@@ -1,4 +1,4 @@
-[![app](launch-binder-app-579ACA.svg)](https://mybinder.org/v2/gh/sametz/panel-test/deploy22?urlpath=/proxy/5006/dnmr_ab)
+[![app](launch-binder-app-579ACA.svg)](https://mybinder.org/v2/gh/sametz/panel-test/deploy22?urlpath=/panel/dnmr_ab)
 
 ## Click the "launch binder app" badge above to launch the application. 
 Be patient as the server image is launched :)
